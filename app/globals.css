@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.escape {
+  letter-spacing: -0.08em;
+  font-family: "Montserrat", serif;
+  font-weight: 800;
+}
