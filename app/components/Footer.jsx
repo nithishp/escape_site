@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="lg:max-w-[20vw]">
           <h1 className="text-6xl escape text-wrap">escape</h1>
           <p className="font-semibold text-3xl">creatives</p>
-          <p className="text-sm mt-4">Let's Grow together!!</p>
+          <p className="text-sm mt-4">Let&apos;s Grow together!!</p>
         </div>
 
         <div className="p-3 flex flex-col gap-3 mr-5 font-light justify-center">

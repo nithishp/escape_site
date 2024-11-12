@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Features = () => {
   return (
-    <div className="min-h-screen min-w-screen section" id="features" >
+    <div className="min-h-screen min-w-screen section" id="features">
       <div className="w-[95vw] h-auto">
         {/* Header Section */}
         <div className="w-full flex flex-col lg:flex-row justify-start items-start lg:justify-between p-6 lg:p-10">
@@ -14,8 +14,8 @@ const Features = () => {
           </h1>
           <p className="text-center lg:text-right mt-5 text-neutral-900 lg:mt-0 lg:max-w-[40vw] text-lg font-light">
             At Escape Creatives, we blend innovation with strategy to deliver
-            tailored solutions that elevate your brand's digital presence. Our
-            focus is on creating engaging and impactful experiences that
+            tailored solutions that elevate your brand&apos;s digital presence.
+            Our focus is on creating engaging and impactful experiences that
             resonate with your audience.
           </p>
         </div>

@@ -4,7 +4,10 @@ import React from "react";
 import { motion } from "framer-motion";
 const About = () => {
   return (
-    <div className="min-h-screen flex flex-col lg:flex-row items-center justify-evenly bg-transparent w-screen section" id="about" >
+    <div
+      className="min-h-screen flex flex-col lg:flex-row items-center justify-evenly bg-transparent w-screen section"
+      id="about"
+    >
       <div className="p-10 lg:max-w-[40vw] gap-10">
         <h1 className="text-neutral-950 text-bold text-5xl my-4 mb-10">
           Transforming Brands, Empowering Success
@@ -20,9 +23,10 @@ const About = () => {
           crafting impactful digital marketing strategies and building modern,
           high-performance websites that elevate your brand. Our mission is to
           drive growth and engagement for your business through innovative
-          solutions and cutting-edge design. Whether it's optimizing your online
-          presence, enhancing user experience, or delivering results-driven
-          campaigns, we're here to take your business to the next level.
+          solutions and cutting-edge design. Whether it&apos;s optimizing your
+          online presence, enhancing user experience, or delivering
+          results-driven campaigns, we&apos;re here to take your business to the
+          next level.
         </motion.p>
         <motion.button
           initial={{ y: 100, opacity: 0 }}
